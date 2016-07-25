@@ -1,6 +1,5 @@
 # docker-volume-cephfs<br>
-##CephFS docker volume driver plugin.<br>
-<br>
+CephFS docker volume driver plugin.<br>
 ##Create CephFS
 ceph osd pool create <pool_name> <pg_num>  <br>
 ceph osd pool create cephfs_data 64 <br>
